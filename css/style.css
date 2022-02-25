@@ -6,6 +6,9 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+body {
+  width: 100vw;
+}
 :root {
   --color_text_cinza: #718096;
   --color_titulo_cinza: #4a5568;
@@ -219,4 +222,41 @@ footer {
 }
 footer a {
   color: var(--color_titulo_cinza);
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 20px;
+  }
+  .topo {
+    width: 100%;
+  }
+  .header_text_title {
+    font-size: 36px;
+  }
+  .header_text_subtitle {
+    width: 100%;
+    font-size: 22px;
+  }
+  .header_cards_item {
+    margin: 0px 10px;
+  }
+  .header_video {
+    width: 100%;
+    height: auto;
+  }
+  .header_form {
+    margin-top: 0px;
+    width: 100%;
+  }
+  .header_prof {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header_prof_text {
+    margin: 15px auto;
+    text-align: center;
+    width: 300px;
+  }
 }
