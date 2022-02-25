@@ -1,1 +1,0 @@
-To import colors to sketch use [Sketch Palettes](https://github.com/andrewfiorillo/sketch-palettes)
